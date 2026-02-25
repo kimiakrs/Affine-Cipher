@@ -6,7 +6,7 @@ The Affine Cipher is a classical substitution cipher that combines modular arith
 
 The project was developed as part of the Software Optimization course during the first semester of my M.Sc. in Software Engineering.
 
-**Full documentation : ./Report-Task1.pdf**
+**[Full documentation](./Report-Task1.pdf)**
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![Affine Cipher](https://img.shields.io/badge/Cipher-Affine-red.svg)](https://en.wikipedia.org/wiki/Affine_cipher)
@@ -55,10 +55,6 @@ where:
 * a = multiplicative key
 * b = additive key
 * 26 = alphabet size
-
-As described in your documentation 
-
-Report-Task1
 
 As described in documentation, this project implements encryption, decryption, brute-force attack, and output display.
 
@@ -195,13 +191,13 @@ For complete theoretical explanation, screenshots, brute-force output examples, 
 
 The Affine Cipher:
 
-Uses simple linear algebra
+* Uses simple linear algebra
 
-Has small key space
+* Has small key space
 
-Is vulnerable to brute-force attack
+* Is vulnerable to brute-force attack
 
-Is vulnerable to frequency analysis
+* Is vulnerable to frequency analysis
 
 Weaknesses:
 
@@ -240,8 +236,11 @@ Modern secure alternatives include:
 ---
 ## Disclaimer
 
-The Affine Cipher is cryptographically insecure and should not be used for real-world secure communication and also this project is strictly for educational and academic purposes.
+The Affine Cipher is cryptographically insecure and should not be used for real-world secure communication and 
+also this project is strictly for educational and academic purposes.
+
 ---
+
 ## License
 
 This project is licensed under the MIT License — see the LICENSE
